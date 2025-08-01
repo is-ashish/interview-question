@@ -1,0 +1,42 @@
+## General Programming & Computer Science Fundamentals
+
+### Basic Level
+1. What is the difference between a process and a thread?
+Answer -:
+    🧠 Process - 
+    A process is like a full program running on your computer.
+    It has its own memory, resources, and runs independently.
+    Example: Opening Chrome and Spotify—each is a separate process.
+    🧵 Thread - 
+    A thread is a smaller unit inside a process.
+    It shares the process’s memory and resources.
+    Multiple threads can run different tasks at the same time within one process.
+    Example: In Chrome, one thread loads the page, another handles scrolling, another plays a video.
+
+
+2. Explain the difference between stack and heap memory.
+-- 
+answer -
+
+Stack Memory
+    Used for temporary storage like function calls and local variables.
+    Memory is automatically managed—allocated when a function starts, freed when it ends.
+    Fast and efficient, but limited in size.
+    Example: When you call a function, its variables go on the stack.
+    🗂️ Heap Memory
+    Used for dynamic storage like objects or large data structures.
+    Memory is manually managed—you allocate and free it yourself (or via garbage collection).
+    Slower but flexible, with more space.
+    Example: When you create an object with new or malloc, it goes on the heap.
+
+
+3. What are the SOLID principles in software engineering?
+
+S	Single Responsibility Principle (SRP)	A class should have only one reason to change—do one job only.
+O	Open/Closed Principle (OCP)	Software entities should be open for extension but closed for modification.
+L	Liskov Substitution Principle (LSP)	Subclasses should be replaceable with their base classes without breaking the program.
+I	Interface Segregation Principle (ISP)	Clients should not be forced to depend on interfaces they don’t use.
+D	Dependency Inversion Principle (DIP)	High-level modules should depend on abstractions, not on low-level modules.
+
+4. Explain Big O notation and analyze the time complexity of common algorithms.
+
