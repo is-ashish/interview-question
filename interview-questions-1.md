@@ -22,7 +22,7 @@
 
 ### Intermediate Level
 11. How do you handle memory leaks in applications?
-12. Explain the CAP theorem and its implications.
+12. Explain the CAP theorem and its implicaons.
 13. What is eventual consistency in distributed systems?
 14. How do you implement rate limting in an API?
 
