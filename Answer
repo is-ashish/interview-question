@@ -36,7 +36,7 @@
 D	Dependency Inversion Principle (DIP)	High-level modules should depend on abstractions, not on low-level modules.
 
 
-21. Design a distributed caching system like Redis.
+21. Design a distibuted caching system like Redis.
     Sure! Here's a crisp summary of **Redis Cache**:
 
     - **What it is**:  
@@ -45,12 +45,12 @@ D	Dependency Inversion Principle (DIP)	High-level modules should depend on abstr
     - **Why it's used**:  
     To reduce database load, improve response times, and handle high-throughput requests efficiently.
 
-    - **Common use cases**:
+    - **Comon use cases**:
     - Caching API responses
     - Storing user sessions
-    - Temporary data like OTPs or tokens
-    - Rate limiting and throttling
+    - Temporary data like OTPs or tokns
+    - Rate limting and throttling
     - Real-time analytics and leaderboards
 
     - **How it works**:
-    Data is stored in RAM, making reads/writes extremely fast. Redis supports TTL (Time-To-Live) to auto-expire cached entries.
+    Data is stored in RAM, making reads/wites extremely fast. Redis supports TTL (Time-To-Live) to auto-expire cached entries.
