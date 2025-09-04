@@ -22,18 +22,19 @@
 
 ### Intermediate Level
 11. How do you handle memory leaks in applications?
-12. Explain the CAP theorem and its implications.
-13. What is eventual consistency in distributed systems?
-14. How do you implement rate limiting in an API?
-15. Explain database indexing and when to use different types of indexes.
-16. What are database transactions and ACID properties?
+12. Explain the CAP theorem and its implicaons.
+13. What is eveual consistency in distributed systems?
+14. How do you implement rate limting in an API?
+
+15. Explain database indexig and when to use diferent types of indexes.
+16. What are database tranctions and ACID properties?
 17. How do you optimize database queries?
-18. Explain caching strategies (Redis, in-memory, CDN).
-19. What is the difference between SQL and NoSQL databases?
+18. Explain caching straties (Redis, in-memory, CDN).
+19. What is the differee between SQL and NoSQL databases?
 20. How do you handle concurrent access to shared resources?
 
 ### Advanced Level
-21. Design a distributed caching system like Redis. --------- In-progress
+21. Design a distruted caching system like Redis. --------- In-progress
 22. How would you implement a load balancer?
 23. Explain database sharding and partitioning strategies.
 24. How do you handle distributed transactions?
