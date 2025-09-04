@@ -33,7 +33,7 @@
 20. How do you handle concurrent access to shared resources?
 
 ### Advanced Level
-21. Design a distributed caching system like Redis.
+21. Design a distributed caching system like Redis. --------- In-progress
 22. How would you implement a load balancer?
 23. Explain database sharding and partitioning strategies.
 24. How do you handle distributed transactions?
