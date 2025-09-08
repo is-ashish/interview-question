@@ -1,10 +1,10 @@
 # interview-question
 
-This repitory is a comprehensive resource for preparing for senior software engineering interviews. It includes:
+This reptory is a comprehensive resource for preparing for senior software engineering interviews. It includes:
 
-- Curaed lists of interview questions covering programming fundamentals, system design, databases, DevOps, cloud platforms, Kubernetes, microservices, and leadership.
+- Cured lists of interview questions covering programming fundamentals, system design, databases, DevOps, cloud platforms, Kubernetes, microservices, and leadership.
 - Detailed answers and explanations for core computer science and software engineering concepts.
-- System design fundamtals and best practices for scalable, reliable, and maintainable systems.
-- Prepation tips and strategies for technical and behavioral interviews.
+- System design fundatals and best practices for scalable, reliable, and maintainable systems.
+- Prepaion tips and strategies for technical and behavioral interviews.
 
 Ideal for engineers aiming to strengthen their fundamentals and succeed in technical interviews at top tech companies.
