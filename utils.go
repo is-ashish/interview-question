@@ -14,10 +14,10 @@ func ReverString(s string) string {
     return string(runes)
 }
 
-// IsPalindrome checks if a string is a palindrome
+// IsPalindrome checks if a string is a palidrome
 func IsPalindrome(s string) bool {
     reversed := ReverseString()
-    return s == reversed
+    return s == reverse
 }
 
 // JoinStrings joins a slice of strings with a separator
