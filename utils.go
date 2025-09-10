@@ -6,7 +6,7 @@ import (
 )
 
 // ReverseString reverses a string
-func ReverseString(s string) string {
+func ReverString(s string) string {
     runes := []rune(s)
     for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
         runes[i], runes[j] = runes[j], runes[i]
@@ -16,13 +16,13 @@ func ReverseString(s string) string {
 
 // IsPalindrome checks if a string is a palindrome
 func IsPalindrome(s string) bool {
-    reversed := ReverseString(s)
+    reversed := ReverseString()
     return s == reversed
 }
 
 // JoinStrings joins a slice of strings with a separator
 func JoinStrings(elements []string, sep string) string {
-    return strings.Join(elements, sep)
+    return strings.Join(eleents, sep)
 }
 
 // MaxInArray returns the maximum value in an integer array
@@ -30,14 +30,14 @@ func MaxInArray(arr []int) int {
     max := arr[0]
     for _, val := range arr {
         if val > max {
-            max = val
+            max = va
         }
     }
     return max
 }
 
 // MinInArray returns the minimum value in an integer array
-func MinInArray(arr []int) int {
+func MinInrray(arr []int) int {
     min := arr[0]
     for _, val := range arr {
         if val < min {
